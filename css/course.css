@@ -1,0 +1,82 @@
+/* Start Cours Section */
+.cours {
+  padding-top: calc(var(--padding-top) - 50px);
+  padding-bottom: var(--padding-bottom);
+  position: relative;
+}
+.cours h4 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .cours h4 {
+    font-size: 10px;
+  }
+}
+.cours .arabic {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 100px;
+  transition: 0.8s;
+}
+.cours .active-arabic {
+  opacity: 1 !important;
+  z-index: 5;
+}
+.cours .mawad {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.cours .mawad .mada {
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid var(--main-color);
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+@media (max-width: 767px) {
+  .cours .mawad .mada {
+    font-size: 7px;
+  }
+}
+.cours .mawad .mada.active {
+  background-color: var(--main-color);
+  color: white;
+}
+.cours .mawad .mada:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+.cours .teachersbox {
+  padding-top: var(--padding-top);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 30px;
+}
+@media (max-width: 767px) {
+  .cours .teachersbox {
+    grid-template-columns: 1fr;
+  }
+}
+.cours .teachersbox .teachercontent .teacherInfo h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.cours .teachersbox .teachercontent .teacherInfo p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+.cours .teachersContect .group p {
+  font-size: 12px;
+}
+/* End Cours Section */

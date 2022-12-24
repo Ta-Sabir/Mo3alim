@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أكاديمية مُعلم</title>
+    <link rel="icon" href="images/logo-image.png" />
+    <!--Render All Nlements Normaly -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--Font Awsome Library-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Templete Css File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Main Templete JavaScript File -->
+    <script defer src="script.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Reem+Kufi:wght@400;500;600;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scrool Reval Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body dir="rtl" id="body">
+    <!-- Start Menu Box -->
+    <div class="menu-box">
+      <div class="closeMenu" id="closeMenu">
+        <i class="fas fa-angle-left changebackground fa-2x"></i>
+      </div>
+      <div class="logo">
+        <div class="icon-logo">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <a href="#"><span>أكا</span>ديمية <span>مُع</span>لم</a>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#landing" class="active">الرئيسية</a></li>
+        <li><a href="cours.html">الدروس</a></li>
+        <li><a href="#online">التدريس عن بعد</a></li>
+        <li><a href="#why-us">لماذا نحن ؟</a></li>
+        <li><a href="#works">كيف يعمل ؟</a></li>
+        <li><a href="#teachers">أساتذتنا</a></li>
+        <li><a href="#testimonial">أراء طلابنا</a></li>
+        <li><a href="twasol.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <!-- End Menu Box -->
+    <!-- Start Header Page -->
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <div class="icon-logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <a href="#"><span>أكا</span>ديمية <span>مُع</span>لم</a>
+        </div>
+        <ul class="links">
+          <li><a href="#landing" class="active">الرئيسية</a></li>
+          <li><a href="cours.html">الدروس</a></li>
+          <li><a href="#online">التدريس عن بعد</a></li>
+          <li><a href="#why-us">لماذا نحن ؟</a></li>
+          <li><a href="#works">كيف يعمل ؟</a></li>
+          <li><a href="#teachers">أساتذتنا</a></li>
+          <li><a href="#testimonial">أراء طلابنا</a></li>
+        </ul>
+        <div class="contact">
+          <a href="twasol.html">تواصل معنا</a>
+        </div>
+        <i id="menu" class="open-icon fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <!-- End Header Page -->
+    <!-- Start landing Page -->
+    <div class="landing-page" id="landing">
+      <div class="conatiner">
+        <div class="contents">
+          <div class="content">
+            <h1>أكبر منصة تعليمية إفتراضية على <span>مستوى الجزائر</span></h1>
+            <p>
+              أكاديمية شاملة تضم جميع المناهج الدراسية من الإبتدائي و حتى
+              المرحلة الجامعية. و هذا مايميز أكاديمية مُعلم عن غيرها من
+              الأكاديميات الإفتراضية . ماذا تنتظر وفر الجهد و المال و قم بحجز
+              دروسك عبر أكاديمية أكاديمية مُعلم .
+            </p>
+            <div class="btn">
+              <a href="#" id="login">تسجيل الدخول</a>
+              <a href="subscribe.html">الاٍشتراك</a>
+            </div>
+          </div>
+          <!-- Start Login Page -->
+          <div class="login" id="loginPage">
+            <div class="form" id="form">
+              <div id="close">✖</div>
+              <div class="logo">
+                <div class="icon-logo">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <a href="#"><span>أكا</span>ديمية <span>مُع</span>لم</a>
+              </div>
+              <p class="paragraph" id="paragraph">
+                يرجي تسجيل الدخول إلي حسابك لتصفح الدروس
+              </p>
+              <form action="" id="Form">
+                <input
+                  class="input"
+                  id="email"
+                  type="email"
+                  name="mail"
+                  placeholder="عنوان البريد الالكتروني"
+                />
+                <span id="messageemail">أدخل بريدك الاٍلكتروني</span>
+                <input
+                  class="input"
+                  id="password"
+                  type="password"
+                  placeholder="كلمة المرور"
+                />
+                <span id="messagemot">أدخل كلمة المرور </span>
+                <div class="info">
+                  <a href="#">هل نسيت كلمة السر؟</a>
+                </div>
+                <div class="btn">
+                  <button id="oki" disabled>تسجيل الدخول</button>
+                </div>
+                <p class="p">إذا كنت جديد على منتصنا قم بالإشتراك</p>
+                <div class="btn">
+                  <a href="subscribe.html" class="subs">الإشتراك </a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- End Login Page -->
+          <div class="image">
+            <img src="images/image-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End landing Page -->
+    <!-- Start Study Online -->
+    <div class="online" id="online">
+      <h2 class="main-title">التدريس عن بعد</h2>
+      <div class="container">
+        <div class="online-box">
+          <div class="image">
+            <img src="images/image-2.png" alt="" />
+          </div>
+          <div class="content">
+            <h2 class="title">ماهو التدريس عن بعد ؟</h2>
+            <p>
+              التعليم عن بُعد هو وسيلة تعليمية حديثة النشأة تهدف إلى تقديم
+              التعليم من داخل المؤسسة التعليمة إلى المتعلم في أي مكان كان. وتعد
+              المرونة أحد أهم إيجابيات التعليم عن بعد حيث أنه يتيح للطالب التعلم
+              في أي وقت وأي مكان.
+            </p>
+            <div class="btn">
+              <a href="twasol.html">تواصل معنا</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Study Online -->
+    <!-- start Why Us -->
+    <div class="why-us" id="why-us">
+      <h2 class="main-title">لماذا أكاديمية مُعلم ؟</h2>
+      <div class="container">
+        <div class="why-us-box">
+          <img id="why-usImage" src="images/image-3.png" alt="" />
+          <div class="boxes">
+            <div class="box">
+              <div class="icon">
+                <img src="images/teacher-icon.png" alt="" />
+              </div>
+              <div class="text">
+                <h3>أفضل المدرسين</h3>
+                <p>
+                  يتدرب التلميذ على وتيرته الخاصة ، حيث يقوم أولا بملئ الفجوات
+                  في الفهم ثم تسريع التعلم عن طريق الأعمال و الواجبات
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="images/stage1.png" alt="" />
+              </div>
+              <div class="text">
+                <h3>متابعة دقيقة</h3>
+                <p>
+                  وسائل المتابعة و التخطيط عن طريق جمع معلومات الدراسة الخاصة
+                  بكل تلميذ و نمذجتها عن طريق الذكاء الاصطناعى لمعرفة الأخطاء و
+                  العقبات و تصحيحها
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <img src="images/science.png" alt="" />
+              </div>
+              <div class="text">
+                <h3>جدول زمني مريح</h3>
+                <p>
+                  يتدرب التلميذ على وتيرته الخاصة ، حيث يقوم أولا بملئ الفجوات
+                  في الفهم ثم تسريع التعلم عن طريق الأعمال و الواجبات
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Why Us -->
+    <!-- Start How it works Section -->
+    <div class="works" id="works">
+      <h2 class="main-title">كيف يعمل موقع مُعلم ؟</h2>
+      <div class="container">
+        <div class="boxes">
+          <div class="box">
+            <div class="content">
+              <h4 class="title">الخطوة الأولى :</h4>
+              <p>
+                قم بالإشتراك أولا و ذلك باٍنشاء حساب جديد بملئ المعلومات
+                المطلوبة
+              </p>
+              <a href="" class="btn">قم بالإشتراك</a>
+            </div>
+            <div class="image-box">
+              <img src="images/acount.png" alt="" />
+            </div>
+            <img
+              class="arow-img arow-right arow-right-1"
+              src="images/arrow-imag.png"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <div class="image-box">
+              <img src="images/mawad.png" alt="" />
+            </div>
+            <div class="content">
+              <h4 class="title">الخطوة الثانية :</h4>
+              <p>اٍختر المواد التعليمية التي تريديها لتنطلق في الدرس</p>
+              <a href="" class="btn">اٍختر الآن</a>
+            </div>
+            <img
+              class="arow-img arow-left arow-left-1"
+              src="./images/arrow-imag.png"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <div class="content">
+              <h4 class="title">الخطوة الثالثة :</h4>
+              <p>قم باٍختيار المدرس الذي يناسبك و ذلك بالضغط على الزر أسفله</p>
+              <a href="" class="btn">قم بالاٍختيار</a>
+            </div>
+            <div class="image-box">
+              <img src="images/allmodaris.png" alt="" />
+            </div>
+            <img
+              class="arow-img arow-right arow-right-2"
+              src="images/arrow-imag.png"
+              alt=""
+            />
+          </div>
+          <div class="box">
+            <div class="image-box">
+              <img src="images/time.png" alt="" />
+            </div>
+            <div class="content">
+              <h4 class="title">الخطوة الرابعة :</h4>
+              <p>قم باِختيار الوقت الذي يناسبك ثم اٍنطلق في الدرس</p>
+              <a href="" class="btn"> اٍنطلق الآن</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End How it works Section -->
+    <!-- Start Our teachers -->
+    <div class="teachers" id="teachers">
+      <h2 class="main-title">أساتذتنا</h2>
+      <div class="container">
+        <div class="teachersbox">
+          <div class="teachearbox teachearbox-1">
+            <div class="teachercontent">
+              <div class="teacherImage">
+                <img src="images/teacher-1.svg" alt="" />
+              </div>
+              <div class="teacherInfo">
+                <h3>الأستاذ طلحاوي صابر</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  أستاذ جامعي تخصص اٍعلام آلي خريج جامعة حسيبة بن بوعلي الشلف
+                  خبرة 10 سنوات تدريس
+                </p>
+              </div>
+            </div>
+            <div class="teachersContect">
+              <div class="group">
+                <h3 class="title">المجموعات المتاحة:</h3>
+                <p>المجموعة أ - المجموعة ب</p>
+              </div>
+              <div class="teacherContact">
+                <h3 class="title">تواصل مع الأستاذ:</h3>
+                <div class="social">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachearbox teachearbox-2">
+            <div class="teachercontent">
+              <div class="teacherImage">
+                <img src="images/teacher-2.svg" alt="" />
+              </div>
+              <div class="teacherInfo">
+                <h3>الأستاذ اٍسحاق بن فرج</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  أستاذ جامعي تخصص اٍعلام آلي خريج المدرسة العليا للاٍعلام الآلي
+                  بلعباس خبرة 10 سنوات تدريس
+                </p>
+              </div>
+            </div>
+            <div class="teachersContect">
+              <div class="group">
+                <h3 class="title">المجموعات المتاحة:</h3>
+                <p>المجموعة أ - المجموعة ب</p>
+              </div>
+              <div class="teacherContact">
+                <h3 class="title">تواصل مع الأستاذ:</h3>
+                <div class="social">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachearbox teachearbox-3">
+            <div class="teachercontent">
+              <div class="teacherImage">
+                <img src="images/teacher-2.svg" alt="" />
+              </div>
+              <div class="teacherInfo">
+                <h3>الأستاذ أحمد</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  أستاذ رياضيات خريج المدرسة العليا للأساتذة خبرة 10 سنوات تدريس
+                </p>
+              </div>
+            </div>
+            <div class="teachersContect">
+              <div class="group">
+                <h3 class="title">المجموعات المتاحة:</h3>
+                <p>المجموعة أ - المجموعة ب</p>
+              </div>
+              <div class="teacherContact">
+                <h3 class="title">تواصل مع الأستاذ:</h3>
+                <div class="social">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teachearbox teachearbox-4">
+            <div class="teachercontent">
+              <div class="teacherImage">
+                <img src="images/teacher-1.svg" alt="" />
+              </div>
+              <div class="teacherInfo">
+                <h3>الأستاذ مصطفى</h3>
+                <div class="rate">
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="filled fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <p>
+                  أستاذ الشريعة خريج المدرسة العليا للأساتذة خبرة 10 سنوات تدريس
+                </p>
+              </div>
+            </div>
+            <div class="teachersContect">
+              <div class="group">
+                <h3 class="title">المجموعات المتاحة:</h3>
+                <p>المجموعة أ - المجموعة ب</p>
+              </div>
+              <div class="teacherContact">
+                <h3 class="title">تواصل مع الأستاذ:</h3>
+                <div class="social">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our teachers -->
+    <!-- Start Testimonial  -->
+    <div class="testimonial" id="testimonial">
+      <h2 class="main-title">أراء طلابنا عنا</h2>
+      <div class="container">
+        <div class="testimonialsBox">
+          <div class="testimonial-box">
+            <img src="images/teacher-1.svg" alt="" />
+            <i class="fa-solid fa-quote-left quotIcon"></i>
+            <h3>صابر</h3>
+            <div class="rate">
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p>
+              أنا سعيد جدا بالدراسة في أكاديمية مُعلم أكاديمة رائعة و أساتذة
+              مشاء الله .
+            </p>
+          </div>
+          <div class="testimonial-box testimonial-box-2">
+            <img src="images/teacher-2.svg" alt="" />
+            <i class="fa-solid fa-quote-left quotIcon"></i>
+            <h3>اٍسحاق</h3>
+            <div class="rate">
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p>
+              أنا سعيد جدا بالدراسة في أكاديمية مُعلم أكاديمة رائعة و أساتذة
+              مشاء الله .
+            </p>
+          </div>
+          <div class="testimonial-box testimonial-box-3">
+            <img src="images/teacher-1.svg" alt="" />
+            <i class="fa-solid fa-quote-left quotIcon"></i>
+            <h3>منتصر</h3>
+            <div class="rate">
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="filled fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p>
+              أنا سعيد جدا بالدراسة في أكاديمية مُعلم أكاديمة رائعة و أساتذة
+              مشاء الله .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial  -->
+    <!-- Start Question Section -->
+    <div class="question">
+      <div class="container">
+        <div class="question-box">
+          <div class="content">
+            <h2 class="title">لديك سؤال ؟</h2>
+            <p>
+              نعرض بعض الأسئلة التي تتكرر من تلاميذنا إذا كان لك سؤال آخر تواصل
+              معنا
+            </p>
+            <a href="twasol.html">تواصل معنا</a>
+          </div>
+          <div class="text">
+            <div class="quest">
+              <div class="questBox">
+                <p>ماهي أكاديمية مُعلم ؟</p>
+                <i class="fa-solid fa-chevron-down down" id="hhh"></i>
+              </div>
+              <div class="content-box">
+                <p>
+                  أكاديمية شاملة تضم جميع المناهج الدراسية من الإبتدائي و حتى
+                  المرحلة الجامعية. و هذا مايميز أكاديمية مُعلم عن غيرها من
+                  الأكاديميات الإفتراضية . ماذا تنتظر وفر الجهد و المال و قم
+                  بحجز دروسك عبر أكاديمية مُعلم .
+                </p>
+              </div>
+            </div>
+            <div class="quest">
+              <div class="questBox">
+                <p>كيف يمكنني الإشتراك في الأكاديمية ؟</p>
+                <i class="fa-solid fa-chevron-down down"></i>
+              </div>
+              <div class="content-box">
+                <p>
+                  للإشتراك في أكاديمية مُعلم تجد زر الإشتراك في الصفحة الرئيسية
+                  لتقوم بتجيل معلوماتك أو <a href="#">بالضغط هنا</a>
+                </p>
+              </div>
+            </div>
+            <div class="quest">
+              <div class="questBox">
+                <p>كيف تعمل أكاديمية مُعلم ؟</p>
+                <i class="fa-solid fa-chevron-down down" id=""></i>
+              </div>
+              <div class="content-box">
+                <p>
+                  من خلال ثلاث خطوات بسيطة يمكنك البدء في الدراسة أونلاين . من
+                  خلال جوالك أو حاسوبك الشخصي قم بالإشتراك في أكاديمية مُعلم ثم
+                  إختر المواد التعليمية ثم إختر المُدرس ثم إنطلق في الدرس
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Question Section -->
+    <!-- Start Contact Me Section -->
+    <div class="contact-me">
+      <p>
+        أكاديمية مُعلم ترافقك في طريقك نحو النجاح و التميز يمكنك التواصل معنا
+        نقدم إستشارات مجانية عبر الواتس اب : +21355555
+      </p>
+    </div>
+    <!-- End Contact Me Section -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="content">
+          <div class="box">
+            <div class="logo">
+              <div class="icon-logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <a href="#"><span>أكا</span>ديمية <span>مُع</span>لم</a>
+            </div>
+            <p class="parag">
+              تسعى أكاديمية مُعلم إلى تغيير مفهوم التعليم الإفتراضي بشكل عام و
+              ذلك من خلال تقديم الأفضل في مجال التعليم الإفتراضي بتقديم أفضل
+              الدروس من طرف أفضل الأساتذة.
+            </p>
+            <div class="terms">
+              <h3 class="title">اتفاقيات الإستخدام :</h3>
+              <ul>
+                <a href="#">الخصوصية</a>
+                <a href="#">شروط الإستخدام</a>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <h3 class="title">خريطة الموقع :</h3>
+            <ul>
+              <li><a href="#landing" class="active">الرئيسية</a></li>
+              <li><a href="cours.html">الدروس</a></li>
+              <li><a href="#online">التدريس عن بعد</a></li>
+              <li><a href="#why-us">لماذا نحن ؟</a></li>
+              <li><a href="#works">كيف يعمل ؟</a></li>
+              <li><a href="#teachers">أساتذتنا</a></li>
+              <li><a href="#testimonial">أراء طلابنا</a></li>
+            </ul>
+          </div>
+          <div class="box twasal">
+            <h3 class="title">تواصل معنا :</h3>
+            <div class="contac">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <p>الجزائر.ولاية الشلف</p>
+            </div>
+            <div class="contac">
+              <i class="far fa-clock fa-fw"></i>
+              <p>أوقات العمل : كل يوم / 24 ساعة</p>
+            </div>
+            <div class="contac">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <p>+21323456789</p>
+            </div>
+            <div class="contac">
+              <i class="fa-solid fa-envelope"></i>
+              <p>talhaoui.sabir@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right">
+          <div class="right">
+            <div class="rightpargraph">
+              <p>
+                <span>أكاديمية مُعلم</span> جميع الحقوق محفوظة ل
+                <span>Mo3alim </span>
+              </p>
+              <p>© 2022</p>
+            </div>
+          </div>
+          <div class="Social">
+            <h3 class="title-main">تابع أكاديمية مُعلم</h3>
+            <div class="social-media">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <!-- Start Made With -->
+    <div class="made-with">
+      <p>
+        تم <span>تصميم</span> و <span>اٍنشاء</span> هذا الموقع من طرف
+        <span>طلحاوي صابر &#129505;</span>
+      </p>
+    </div>
+    <!-- End Made With -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
