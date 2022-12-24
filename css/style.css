@@ -1008,7 +1008,7 @@ button:disabled {
 /* Start Our teachers */
 .teachers {
   padding-top: var(--padding-top);
-  padding-bottom: var(--padding-botttom);
+  padding-bottom: var(--padding-bottom);
 }
 .teachers .teachersbox {
   padding-top: var(--padding-top);
