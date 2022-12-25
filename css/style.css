@@ -266,6 +266,11 @@ button:disabled {
   cursor: pointer;
   transition: var(--main-transition);
 }
+@media (max-width:767px){
+  .login .form #close {
+    font-size: 17px;
+  }
+}
 .login .form #close:hover {
   transform: rotate(180deg);
 }
