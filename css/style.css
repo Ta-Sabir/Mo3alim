@@ -540,19 +540,18 @@ button:disabled {
 }
 @media (max-width: 991px) {
   .header .container .open-icon {
-    font-size: 25px;
-    width: 45px;
-    height: 45px;
-    background-color: transparent;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
+    background-color: var(--secondery-color);
+    border: 1px solid transparent;
+    color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: var(--main-transition);
-  }
-  .header .container .open-icon:hover {
-    background-color: #ddd;
   }
 }
 /* End Headr Page */
